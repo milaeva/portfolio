@@ -1,5 +1,6 @@
 import React from "react";
 import nav from "./Header.module.css";
+import img from "../../img/bg_home.jpg";
 
 const Header = () => {
   return (
@@ -26,6 +27,10 @@ const Header = () => {
             </a>
           </div>
         </div>
+        <div className={nav.home}>
+          <img src={img} alt="photo" className={nav.bg} />
+        </div>
+        <h1 className={nav.title}>frontend developer</h1>      
       </div>
     </header>
   );
