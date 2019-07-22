@@ -46,15 +46,25 @@
   height: auto;
   width: 100%;  
   padding-top: 22px;
-  opacity: 0.09;
+  /*opacity: 0.09;*/
 }
 .title{
-  text-align: right;
+  text-align: center;
   text-transform: uppercase;
   font-family: sans-serif;
   font-size: 52px;
   font-weight: 900;
+  line-height: 1.4em;
+  padding-top: 30px;
+}
+.block{
+  width: 45%;
+  background: #fff;
+  height: 650px;
+  position: relative;
+  z-index: 22;
+  left: 50%;  
   margin-top: -45%;
-  line-height: 1.7em;
-  letter-spacing: normal;  
+  /*box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset; */
+  box-shadow: 0 0 40px #00000085 inset;
 }

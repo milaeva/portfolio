@@ -30,7 +30,9 @@ const Header = () => {
         <div className={nav.home}>
           <img src={img} alt="photo" className={nav.bg} />
         </div>
-        <h1 className={nav.title}>frontend developer</h1>      
+        <div className={nav.block}>
+          <h1 className={nav.title}>frontend developer</h1>
+        </div>      
       </div>
     </header>
   );
