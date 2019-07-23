@@ -11,10 +11,7 @@ const Profile = () =>{
       <div className={nav.col2}>
         <h4 className={nav.subtitle}>I`m happy!</h4>
         <p className={nav.text2}>I believe that in dependent I will reach the level of the team leader, and I will be able to share experiences and support those who are not yet strong in their steps when writing code.</p>
-      </div>
-      <div className={nav.col3}>
-        <p className={nav.text}></p>
-      </div>
+      </div>      
     </div>
   )
 }
